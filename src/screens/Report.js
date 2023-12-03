@@ -11,27 +11,27 @@ const Report = () => {
         {
             key: 'Péssimo',
             value: currentCounters.Pessimo,
-            svg: { fill: '#53D8D8' }
+            svg: { fill: '#FF3333' }
         },
         {
             key: 'Ruim',
             value: currentCounters.Ruim,
-            svg: { fill: '#EA7288' }
+            svg: { fill: '#FFA500' }
         },
         {
             key: 'Neutro',
             value: currentCounters.Neutro,
-            svg: { fill: '#5FCDA4' }
+            svg: { fill: '#FFD700' }
         },
         {
             key: 'Bom',
             value: currentCounters.Bom,
-            svg: { fill: '#6994FE' }
+            svg: { fill: '#66CCCC' }
         },
         {
             key: 'Excelente',
             value: currentCounters.Excelente,
-            svg: { fill: '#F1CE7E' }
+            svg: { fill: '#5CB85C' }
         }
     ]
 
@@ -58,23 +58,23 @@ const Report = () => {
 
                 <View style={styles.LegendView}>
                     <View style={styles.Legend}>
-                        <View style={[styles.Square, {backgroundColor: '#F1CE7E'}]}></View>
+                        <View style={[styles.Square, {backgroundColor: '#5CB85C'}]}></View>
                         <Text style={styles.Text}>Excelente</Text>
                     </View>
                     <View style={styles.Legend}>
-                        <View style={[styles.Square, {backgroundColor: '#6994FE'}]}></View>
+                        <View style={[styles.Square, {backgroundColor: '#66CCCC'}]}></View>
                         <Text style={styles.Text}>Bom</Text>
                     </View>
                     <View style={styles.Legend}>
-                        <View style={[styles.Square, {backgroundColor: '#5FCDA4'}]}></View>
+                        <View style={[styles.Square, {backgroundColor: '#FFD700'}]}></View>
                         <Text style={styles.Text}>Neutro</Text>
                     </View>
                     <View style={styles.Legend}>
-                        <View style={[styles.Square, {backgroundColor: '#EA7288'}]}></View>
+                        <View style={[styles.Square, {backgroundColor: '#FFA500'}]}></View>
                         <Text style={styles.Text}>Ruim</Text>
                     </View>
                     <View style={styles.Legend}>
-                        <View style={[styles.Square, {backgroundColor: '#53D8D8'}]}></View>
+                        <View style={[styles.Square, {backgroundColor: '#FF3333'}]}></View>
                         <Text style={styles.Text}>Péssimo</Text>
                     </View>
                 </View>

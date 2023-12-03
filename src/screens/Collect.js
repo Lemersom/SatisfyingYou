@@ -66,7 +66,7 @@ const Collect = (props) => {
             </View>
 
             <View style={styles.TextView}>
-                <Text style={styles.Text}>O que você achou do Carnaval 2024?</Text>
+                <Text style={styles.Text}>O que você achou do(a) {context.currentResearchName}?</Text>
             </View>
             <View style={styles.SatisfationView}>
                 <CardButton name='emoticon-dead-outline' color='#d71616' text="Péssimo" size={100} onPress={() => { gotoThanks(); buttonClick('Pessimo') }} />
