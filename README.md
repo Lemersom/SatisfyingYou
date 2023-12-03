@@ -86,4 +86,10 @@ npx react-native run-android
 <figure>
   <figcaption>Relatório:</figcaption>
   <img src="https://github.com/Lemersom/SatisfyingYou/blob/main/screenshots/relatorio.jpg?raw=true" alt="Relatório">
-</figure>  
+</figure> 
+
+## Desenvolvedores
+
+- [@Anna Julia](https://github.com/AnnaJuliaRodriguesGouvea)
+- [@Lémersom](https://github.com/Lemersom)
+- [@Luís Felipe](https://github.com/luisfe0604)
